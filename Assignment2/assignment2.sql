@@ -8,4 +8,9 @@ CREATE TABLE Video (
     PRIMARY KEY (CatalogID,VideoID)
 );
 
-Create Table
+create TABLE Rental (
+    CatalogID INT NOT NULL,
+    VideoID INT NOT NULL,
+    CustomerID INT NOT NULL,
+
+)
